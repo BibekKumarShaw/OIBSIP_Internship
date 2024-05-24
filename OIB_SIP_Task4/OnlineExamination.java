@@ -32,6 +32,7 @@ public class OnlineExamination {
             System.out.println("c.Java is a platform-dependent programming language");
             System.out.println("d.Java is a platform-independent programming language");
 
+            System.out.print("Enter ans: ");
             String ans1 = sc.next();
             if(ans1.equals(answer.getAnswer1())){
                 System.out.println("ans1: correct");
@@ -48,6 +49,7 @@ public class OnlineExamination {
             System.out.println("c.JDK");
             System.out.println("d.JVM");
 
+            System.out.print("Enter ans: ");
             String ans2 = sc.next();
             if(ans2.equals(answer.getAnswer2())){
                 System.out.println("ans2: correct");
