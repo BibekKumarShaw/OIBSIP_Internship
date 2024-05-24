@@ -61,13 +61,12 @@ class Reservation{
     System.out.println("=======......Thank you...... Happy Journey.=======");
     System.out.println("NOTE- Remember your name and password for cancellation in future.");
     System.out.println("================================================================================");
-    System.out.println("=======Cancel Reservation?: 1.Yes/2.No ========");
-    System.out.println("=======3. Exit=======");
-
-    int choice = sc.nextInt();
-
+        
     boolean exit = false;
     while(exit != true){
+    System.out.println("=======Cancel Reservation?: 1.Yes/2.No ========");
+    System.out.println("=======3. Exit=======");
+    int choice = sc.nextInt();
 
     switch(choice){
         case 1:
